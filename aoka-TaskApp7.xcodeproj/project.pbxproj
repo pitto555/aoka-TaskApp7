@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		831EB59C2619956C008A0F10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831EB59B2619956C008A0F10 /* AppDelegate.swift */; };
 		831EB59E2619956C008A0F10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831EB59D2619956C008A0F10 /* SceneDelegate.swift */; };
-		831EB5A02619956C008A0F10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831EB59F2619956C008A0F10 /* ViewController.swift */; };
 		831EB5A32619956C008A0F10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831EB5A12619956C008A0F10 /* Main.storyboard */; };
 		831EB5A52619956D008A0F10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831EB5A42619956D008A0F10 /* Assets.xcassets */; };
 		831EB5A82619956D008A0F10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831EB5A62619956D008A0F10 /* LaunchScreen.storyboard */; };
 		831EB5B32619956D008A0F10 /* aoka_TaskApp7Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831EB5B22619956D008A0F10 /* aoka_TaskApp7Tests.swift */; };
 		831EB5BE2619956D008A0F10 /* aoka_TaskApp7UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831EB5BD2619956D008A0F10 /* aoka_TaskApp7UITests.swift */; };
+		831EB5CF26199F40008A0F10 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831EB5CE26199F40008A0F10 /* RedViewController.swift */; };
+		831EB5D426199F4E008A0F10 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831EB5D326199F4E008A0F10 /* GreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 		831EB5982619956C008A0F10 /* aoka-TaskApp7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aoka-TaskApp7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		831EB59B2619956C008A0F10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		831EB59D2619956C008A0F10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		831EB59F2619956C008A0F10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		831EB5A22619956C008A0F10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		831EB5A42619956D008A0F10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		831EB5A72619956D008A0F10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		831EB5B92619956D008A0F10 /* aoka-TaskApp7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aoka-TaskApp7UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		831EB5BD2619956D008A0F10 /* aoka_TaskApp7UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aoka_TaskApp7UITests.swift; sourceTree = "<group>"; };
 		831EB5BF2619956D008A0F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		831EB5CE26199F40008A0F10 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		831EB5D326199F4E008A0F10 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +103,8 @@
 			children = (
 				831EB59B2619956C008A0F10 /* AppDelegate.swift */,
 				831EB59D2619956C008A0F10 /* SceneDelegate.swift */,
-				831EB59F2619956C008A0F10 /* ViewController.swift */,
+				831EB5CE26199F40008A0F10 /* RedViewController.swift */,
+				831EB5D326199F4E008A0F10 /* GreenViewController.swift */,
 				831EB5A12619956C008A0F10 /* Main.storyboard */,
 				831EB5A42619956D008A0F10 /* Assets.xcassets */,
 				831EB5A62619956D008A0F10 /* LaunchScreen.storyboard */,
@@ -258,9 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				831EB5A02619956C008A0F10 /* ViewController.swift in Sources */,
+				831EB5CF26199F40008A0F10 /* RedViewController.swift in Sources */,
 				831EB59C2619956C008A0F10 /* AppDelegate.swift in Sources */,
 				831EB59E2619956C008A0F10 /* SceneDelegate.swift in Sources */,
+				831EB5D426199F4E008A0F10 /* GreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
