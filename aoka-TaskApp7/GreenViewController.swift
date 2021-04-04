@@ -30,5 +30,4 @@ class GreenViewController: UIViewController {
         textField.endEditing(true)
         textField2.endEditing(true)
     }
-    
 }
