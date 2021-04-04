@@ -25,7 +25,9 @@ class GreenViewController: UIViewController {
         let number = Int(textField.text!) ?? 0
         let number2 = Int(textField2.text!) ?? 0
         
-        answerLabel.text = String(number - number2)
+        let answer = number - number2
+        
+        answerLabel.text = "\(answer)"
         
         textField.endEditing(true)
         textField2.endEditing(true)
